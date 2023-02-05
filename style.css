@@ -22,13 +22,13 @@
     --fonte-one-piece: 'one Piece', 'cursive'
 }
 
-#dov{
+/*#dov{
     display: flex;
     justify-content: center;
-}
+}*/
 
 
-*{
+ *{
     margin: 0px;
     padding: 0px;
 }
@@ -108,8 +108,8 @@ main p {
     text-align: justify;
     text-indent: 20px;
     line-height: 1.2em;
-}
-
+} 
+ 
 main img {
     width: 50%;
     margin: auto;
@@ -140,15 +140,19 @@ footer a:hover {
 .conteudo {
     display: table;
 }
-.imgsanji {
-    display: table-cell;
-    float: right;
-    width: 500px;
+
+.imagemsanji {
+
+    float: left;
+    width: 40%;
+    padding-top: 20px;
 }
 
-.textosanji {
-    display: table-cell;
-    float: right;
-   
-
+.parsanji {
+    display: inline-block;
+    width: ;
+    margin-right: 15%;
+    padding: 10px;
+    padding-left: 50px;
 }
+
